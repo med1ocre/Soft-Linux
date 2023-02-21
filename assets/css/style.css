@@ -1,0 +1,109 @@
+body{
+
+  background-color: #292d34;
+
+  display: block;
+  margin: 8px;
+
+}
+
+button{
+
+  cursor:pointer;
+
+}
+
+.bigTitle{
+
+  color:white;
+
+}
+
+.settingsImg{
+
+  width:50px;
+  height:50px;
+
+}
+
+.startButton {
+    background-color: #363C45;
+    border: 4px solid rgb(39 37 42);
+    border-left: none;
+    border-radius: 0 15px 15px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#fadeCover {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #292d34;
+}
+
+#title{
+
+  display:flex;
+  align-items: center;
+
+}
+
+#headerButtonContainer button {
+    background-color: transparent;
+    border: none;
+}
+
+#nameInput {
+    width: 380px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    border-radius: 15px 0 0 15px;
+    padding: 10px;
+    border: 4px solid rgb(39,37,42);
+    border-right: none;
+    outline: none;
+}
+
+#headerButtonContainer {
+    margin-right: 15px;
+    display: flex;
+    margin-top: 2px;
+}
+
+#stickyHeader{
+
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: flex;
+    z-index: 100;
+    justify-content: space-between;
+    background-color: #363C45;
+    padding:5px;
+    color:white;
+
+}
+
+#title{
+
+    margin-left: 15px;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+#introPage{
+
+  font-family: 'dm serif text';
+  font-weight:lighter;
+
+  text-align: center;
+
+}
